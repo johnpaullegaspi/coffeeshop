@@ -144,7 +144,7 @@
       "name": "Brown Sugar Milk Tea",
       "description": "Freshly brewed black tea with creamy milk, brown sugar syrup, and chewy tapioca pearls.",
       "price": "5.95",
-      "image": "https://images.unsplash.com/photo-1558855410-3112e253d704?w=600&h=450&fit=crop",
+      "image": "/assets/images/ChatGPT Image Aug 3, 2026, 01_33_44 AM.png",
       "badge": {
         "type": "new",
         "text": "New"
@@ -277,7 +277,7 @@
       "newItem": false,
       "available": true,
       "calories": 150,
-      "image": "https://images.unsplash.com/photo-1570968992193-fd6dcfd32c4d?w=600&h=600&fit=crop",
+      "image": "/assets/images/ChatGPT Image Aug 3, 2026, 01_35_54 AM.png",
       "sweetnessOptions": [
         "None",
         "Light",
@@ -291,7 +291,7 @@
       "addons": [
         {
           "name": "Extra Shot",
-          "price": 1.0
+          "price": 1
         },
         {
           "name": "Oat Milk",
@@ -400,7 +400,7 @@
       "addons": [
         {
           "name": "Vanilla Sweet Cream",
-          "price": 1.0
+          "price": 1
         },
         {
           "name": "Nitro",
@@ -458,7 +458,7 @@
       "newItem": false,
       "available": true,
       "calories": 320,
-      "image": "https://images.unsplash.com/photo-1558855410-3112e253d704?w=600&h=600&fit=crop",
+      "image": "/assets/images/ChatGPT Image Aug 3, 2026, 01_41_08 AM.png",
       "sweetnessOptions": [
         "0%",
         "25%",
@@ -518,7 +518,7 @@
         },
         {
           "name": "Cream Foam",
-          "price": 1.0
+          "price": 1
         }
       ]
     },
@@ -533,7 +533,7 @@
       "newItem": false,
       "available": true,
       "calories": 340,
-      "image": "https://images.unsplash.com/photo-1623594073767-a18d0e3e3a3a?w=600&h=600&fit=crop",
+      "image": "/assets/images/ChatGPT Image Aug 3, 2026, 06_18_19 AM.png",
       "sweetnessOptions": [
         "0%",
         "25%",
@@ -579,7 +579,7 @@
         },
         {
           "name": "Mochi",
-          "price": 1.0
+          "price": 1
         }
       ]
     },
@@ -718,7 +718,7 @@
       "newItem": false,
       "available": true,
       "calories": 350,
-      "image": "https://images.unsplash.com/photo-1558855410-3112e253d704?w=600&h=600&fit=crop",
+      "image": "/assets/images/ChatGPT Image Aug 3, 2026, 06_25_21 AM.png",
       "sweetnessOptions": [
         "0%",
         "25%",
