@@ -1,6 +1,12 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: johnpaullegaspi/coffeeshop
   branch: main
+  # No base_url/auth_endpoint needed: when neither is set, Sveltia CMS
+  # automatically authenticates via Netlify's own OAuth provider (the
+  # "Netlify as OAuth client" flow) as long as the GitHub OAuth App is
+  # registered and linked under this site's Netlify dashboard —
+  # Project configuration > Access & security > OAuth > Install provider.
 
 media_folder: "assets/images"
 public_folder: "/assets/images"
