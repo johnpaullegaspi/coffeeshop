@@ -877,7 +877,8 @@ function formatDate(dateStr) {
 // PAGE ROUTER
 // ============================================
 
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async () => {
+  await ensureSiteData();
   const path = window.location.pathname;
 
   if (path.includes('index') || path === '/' || path === '') {
@@ -908,6 +909,10 @@ document.addEventListener('DOMContentLoaded', () => {
     setPageSEO('contact');
     initContactPage();
   }
+
+  // Runs after both shared components and page-specific content are in the DOM,
+  // so scroll-reveal elements added by page init functions get observed too.
+  initScrollReveal();
 });
 
 // Close modals on escape
