@@ -5,6 +5,14 @@
 
 const SITE_DATA_KEY = 'brewHavenSiteData';
 let siteData = null;
+let siteDataPromise = null;
+
+// Ensures site data is fetched only once and lets any caller await its readiness,
+// avoiding a race where page-specific rendering runs before the JSON has loaded.
+function ensureSiteData() {
+  if (!siteDataPromise) siteDataPromise = loadSiteData();
+  return siteDataPromise;
+}
 
 // SVG Icons
 const ICONS = {
@@ -506,8 +514,9 @@ function lightboxPrev() {
 // ============================================
 
 document.addEventListener('DOMContentLoaded', async () => {
-  await loadSiteData();
+  await ensureSiteData();
   renderHeader();
   renderFooter();
-  initScrollReveal();
+  // Note: initScrollReveal() runs from main.js, after page-specific content
+  // (which also depends on ensureSiteData()) has been rendered into the DOM.
 });
