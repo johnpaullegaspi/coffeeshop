@@ -1,0 +1,1458 @@
+{
+  "business": {
+    "name": "The Brew Haven",
+    "tagline": "Where Every Cup Tells a Story",
+    "founded": "2019",
+    "email": "hello@thebrewhaven.com",
+    "phone": "+1 (555) 234-5678",
+    "address": "123 Coffee Lane, Artisan District, New York, NY 10001",
+    "mapsUrl": "https://maps.google.com",
+    "mapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387193.3059353883!2d-74.25986652089301!3d40.69714941680757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY!5e0!3m2!1sen!2sus!4v1699999999999!5m2!1sen!2sus"
+  },
+  "seo": {
+    "defaultTitle": "The Brew Haven | Premium Coffee & Milk Tea",
+    "defaultDescription": "Experience artisan coffee and handcrafted milk tea at The Brew Haven. Cozy atmosphere, premium ingredients, unforgettable flavors.",
+    "defaultKeywords": "coffee shop, milk tea, artisan coffee, cafe, best coffee, bubble tea, pastries",
+    "pages": {
+      "home": {
+        "title": "The Brew Haven | Premium Coffee & Milk Tea",
+        "description": "Experience artisan coffee and handcrafted milk tea at The Brew Haven. Cozy atmosphere, premium ingredients, unforgettable flavors.",
+        "keywords": "coffee shop, milk tea, artisan coffee, cafe, best coffee, bubble tea",
+        "canonical": "https://thebrewhaven.com/",
+        "ogImage": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1200&h=630&fit=crop"
+      },
+      "about": {
+        "title": "About Us | The Brew Haven",
+        "description": "Discover the story behind The Brew Haven. Our mission, values, and passion for exceptional coffee and community.",
+        "keywords": "about the brew haven, coffee shop story, artisan coffee mission",
+        "canonical": "https://thebrewhaven.com/about",
+        "ogImage": "https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=1200&h=630&fit=crop"
+      },
+      "menu": {
+        "title": "Menu | The Brew Haven",
+        "description": "Explore our full menu of artisan coffees, milk teas, frappes, pastries, and meals. Something for every craving.",
+        "keywords": "coffee menu, milk tea menu, cafe menu, pastries, desserts",
+        "canonical": "https://thebrewhaven.com/menu",
+        "ogImage": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=1200&h=630&fit=crop"
+      },
+      "order": {
+        "title": "Order Online | The Brew Haven",
+        "description": "Order your favorite drinks and food online for pickup or delivery. Fast, easy, and delicious.",
+        "keywords": "order coffee online, coffee delivery, milk tea delivery, pickup",
+        "canonical": "https://thebrewhaven.com/order",
+        "ogImage": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1200&h=630&fit=crop"
+      },
+      "reservation": {
+        "title": "Reservations | The Brew Haven",
+        "description": "Reserve a table at The Brew Haven. Perfect for dates, meetings, or catching up with friends.",
+        "keywords": "cafe reservation, book table, coffee shop booking",
+        "canonical": "https://thebrewhaven.com/reservation",
+        "ogImage": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=1200&h=630&fit=crop"
+      },
+      "promotions": {
+        "title": "Promotions | The Brew Haven",
+        "description": "Check out our latest seasonal drinks, limited-time offers, and loyalty rewards at The Brew Haven.",
+        "keywords": "coffee promotions, milk tea deals, cafe discounts, seasonal drinks",
+        "canonical": "https://thebrewhaven.com/promotions",
+        "ogImage": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=1200&h=630&fit=crop"
+      },
+      "gallery": {
+        "title": "Gallery | The Brew Haven",
+        "description": "Browse photos of our signature drinks, cozy interior, happy customers, and special events.",
+        "keywords": "coffee shop gallery, cafe interior, artisan drinks photos",
+        "canonical": "https://thebrewhaven.com/gallery",
+        "ogImage": "https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=1200&h=630&fit=crop"
+      },
+      "reviews": {
+        "title": "Reviews | The Brew Haven",
+        "description": "Read what our customers say about The Brew Haven. Real reviews from real coffee lovers.",
+        "keywords": "coffee shop reviews, customer testimonials, best cafe reviews",
+        "canonical": "https://thebrewhaven.com/reviews",
+        "ogImage": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1200&h=630&fit=crop"
+      },
+      "contact": {
+        "title": "Contact Us | The Brew Haven",
+        "description": "Get in touch with The Brew Haven. Find our location, hours, phone, email, and social media.",
+        "keywords": "contact coffee shop, cafe location, coffee shop hours",
+        "canonical": "https://thebrewhaven.com/contact",
+        "ogImage": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=1200&h=630&fit=crop"
+      }
+    }
+  },
+  "navigation": {
+    "items": [
+      {
+        "label": "Home",
+        "url": "index.html"
+      },
+      {
+        "label": "About",
+        "url": "about.html"
+      },
+      {
+        "label": "Menu",
+        "url": "menu.html"
+      },
+      {
+        "label": "Reservations",
+        "url": "reservation.html"
+      },
+      {
+        "label": "Order Online",
+        "url": "order.html"
+      },
+      {
+        "label": "Promotions",
+        "url": "promotions.html"
+      },
+      {
+        "label": "Gallery",
+        "url": "gallery.html"
+      },
+      {
+        "label": "Reviews",
+        "url": "reviews.html"
+      },
+      {
+        "label": "Contact",
+        "url": "contact.html"
+      }
+    ]
+  },
+  "homepage": {
+    "hero": {
+      "label": "Welcome to",
+      "title": "The Brew <em>Haven</em>",
+      "description": "Where every cup is crafted with passion and every visit feels like coming home. Experience artisan coffee, handcrafted milk tea, and a warm atmosphere designed for connection.",
+      "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1920&h=1080&fit=crop",
+      "ctaPrimary": "View Menu",
+      "ctaSecondary": "Reserve a Table"
+    }
+  },
+  "featuredProducts": [
+    {
+      "name": "Signature Cold Brew",
+      "description": "Slow-steeped for 20 hours for a smooth, naturally sweet finish with notes of dark chocolate and caramel.",
+      "price": "6.50",
+      "image": "https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?w=600&h=450&fit=crop",
+      "badge": {
+        "type": "bestseller",
+        "text": "Best Seller"
+      }
+    },
+    {
+      "name": "Brown Sugar Milk Tea",
+      "description": "Freshly brewed black tea with creamy milk, brown sugar syrup, and chewy tapioca pearls.",
+      "price": "5.95",
+      "image": "https://images.unsplash.com/photo-1558855410-3112e253d704?w=600&h=450&fit=crop",
+      "badge": {
+        "type": "new",
+        "text": "New"
+      }
+    },
+    {
+      "name": "Caramel Macchiato",
+      "description": "Espresso marked with vanilla syrup and steamed milk, topped with caramel drizzle.",
+      "price": "5.50",
+      "image": "https://images.unsplash.com/photo-1485808191679-5f86510681a2?w=600&h=450&fit=crop"
+    },
+    {
+      "name": "Matcha Frappé",
+      "description": "Premium ceremonial grade matcha blended with milk and ice for a refreshing treat.",
+      "price": "6.25",
+      "image": "https://images.unsplash.com/photo-1515823064-d6e0c04616a7?w=600&h=450&fit=crop",
+      "badge": {
+        "type": "promo",
+        "text": "Popular"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "id": "coffee",
+      "name": "Coffee"
+    },
+    {
+      "id": "milk-tea",
+      "name": "Milk Tea"
+    },
+    {
+      "id": "fruit-tea",
+      "name": "Fruit Tea"
+    },
+    {
+      "id": "frappes",
+      "name": "Frappes"
+    },
+    {
+      "id": "non-coffee",
+      "name": "Non-Coffee"
+    },
+    {
+      "id": "pastries",
+      "name": "Pastries"
+    },
+    {
+      "id": "desserts",
+      "name": "Desserts"
+    },
+    {
+      "id": "meals",
+      "name": "Meals"
+    }
+  ],
+  "menu": [
+    {
+      "id": "c1",
+      "name": "Espresso",
+      "category": "coffee",
+      "description": "Rich, bold single shot of our house blend.",
+      "priceRegular": "3.50",
+      "priceLarge": "4.50",
+      "bestSeller": false,
+      "newItem": false,
+      "available": true,
+      "calories": 5,
+      "image": "https://images.unsplash.com/photo-1510591509098-f4fdc6d0ff04?w=600&h=600&fit=crop",
+      "sweetnessOptions": [
+        "None"
+      ],
+      "iceOptions": [
+        "Hot",
+        "Iced"
+      ]
+    },
+    {
+      "id": "c2",
+      "name": "Americano",
+      "category": "coffee",
+      "description": "Espresso with hot water for a smooth, full-bodied cup.",
+      "priceRegular": "4.00",
+      "priceLarge": "5.00",
+      "bestSeller": false,
+      "newItem": false,
+      "available": true,
+      "calories": 10,
+      "image": "https://images.unsplash.com/photo-1551030173-122aabc4489c?w=600&h=600&fit=crop",
+      "sweetnessOptions": [
+        "None",
+        "Light",
+        "Regular"
+      ],
+      "iceOptions": [
+        "Hot",
+        "Iced"
+      ]
+    },
+    {
+      "id": "c3",
+      "name": "Cappuccino",
+      "category": "coffee",
+      "description": "Equal parts espresso, steamed milk, and velvety foam.",
+      "priceRegular": "4.75",
+      "priceLarge": "5.75",
+      "bestSeller": true,
+      "newItem": false,
+      "available": true,
+      "calories": 120,
+      "image": "https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=600&h=600&fit=crop",
+      "sweetnessOptions": [
+        "None",
+        "Light",
+        "Regular"
+      ],
+      "iceOptions": [
+        "Hot",
+        "Iced"
+      ]
+    },
+    {
+      "id": "c4",
+      "name": "Latte",
+      "category": "coffee",
+      "description": "Espresso with steamed milk and a light layer of foam.",
+      "priceRegular": "4.95",
+      "priceLarge": "5.95",
+      "bestSeller": true,
+      "newItem": false,
+      "available": true,
+      "calories": 150,
+      "image": "https://images.unsplash.com/photo-1570968992193-fd6dcfd32c4d?w=600&h=600&fit=crop",
+      "sweetnessOptions": [
+        "None",
+        "Light",
+        "Regular",
+        "Extra"
+      ],
+      "iceOptions": [
+        "Hot",
+        "Iced"
+      ],
+      "addons": [
+        {
+          "name": "Extra Shot",
+          "price": 1.0
+        },
+        {
+          "name": "Oat Milk",
+          "price": 0.75
+        },
+        {
+          "name": "Vanilla Syrup",
+          "price": 0.5
+        }
+      ]
+    },
+    {
+      "id": "c5",
+      "name": "Caramel Macchiato",
+      "category": "coffee",
+      "description": "Vanilla syrup, steamed milk, espresso, and caramel drizzle.",
+      "priceRegular": "5.50",
+      "priceLarge": "6.50",
+      "bestSeller": true,
+      "newItem": false,
+      "available": true,
+      "calories": 250,
+      "image": "https://images.unsplash.com/photo-1485808191679-5f86510681a2?w=600&h=600&fit=crop",
+      "sweetnessOptions": [
+        "Light",
+        "Regular",
+        "Extra"
+      ],
+      "iceOptions": [
+        "Hot",
+        "Iced"
+      ],
+      "addons": [
+        {
+          "name": "Extra Caramel",
+          "price": 0.5
+        },
+        {
+          "name": "Whipped Cream",
+          "price": 0.5
+        }
+      ]
+    },
+    {
+      "id": "c6",
+      "name": "Mocha",
+      "category": "coffee",
+      "description": "Espresso with rich chocolate and steamed milk.",
+      "priceRegular": "5.25",
+      "priceLarge": "6.25",
+      "bestSeller": false,
+      "newItem": false,
+      "available": true,
+      "calories": 280,
+      "image": "https://images.unsplash.com/photo-1578314675249-a6910f80cc4e?w=600&h=600&fit=crop",
+      "sweetnessOptions": [
+        "Light",
+        "Regular",
+        "Extra"
+      ],
+      "iceOptions": [
+        "Hot",
+        "Iced"
+      ]
+    },
+    {
+      "id": "c7",
+      "name": "Flat White",
+      "category": "coffee",
+      "description": "Double ristretto with microfoam for a velvety texture.",
+      "priceRegular": "4.75",
+      "priceLarge": "5.75",
+      "bestSeller": false,
+      "newItem": false,
+      "available": true,
+      "calories": 130,
+      "image": "https://images.unsplash.com/photo-1577968897966-3d4325b36b61?w=600&h=600&fit=crop",
+      "sweetnessOptions": [
+        "None",
+        "Light"
+      ],
+      "iceOptions": [
+        "Hot"
+      ]
+    },
+    {
+      "id": "c8",
+      "name": "Cold Brew",
+      "category": "coffee",
+      "description": "20-hour steeped cold brew with natural sweetness.",
+      "priceRegular": "5.00",
+      "priceLarge": "6.50",
+      "bestSeller": true,
+      "newItem": false,
+      "available": true,
+      "calories": 5,
+      "image": "https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?w=600&h=600&fit=crop",
+      "sweetnessOptions": [
+        "None",
+        "Light",
+        "Regular"
+      ],
+      "iceOptions": [
+        "Iced"
+      ],
+      "addons": [
+        {
+          "name": "Vanilla Sweet Cream",
+          "price": 1.0
+        },
+        {
+          "name": "Nitro",
+          "price": 1.5
+        }
+      ]
+    },
+    {
+      "id": "c9",
+      "name": "Pour Over",
+      "category": "coffee",
+      "description": "Single-origin beans brewed to highlight unique flavor notes.",
+      "priceRegular": "5.50",
+      "priceLarge": "6.50",
+      "bestSeller": false,
+      "newItem": false,
+      "available": true,
+      "calories": 5,
+      "image": "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?w=600&h=600&fit=crop",
+      "sweetnessOptions": [
+        "None"
+      ],
+      "iceOptions": [
+        "Hot",
+        "Iced"
+      ]
+    },
+    {
+      "id": "c10",
+      "name": "Affogato",
+      "category": "coffee",
+      "description": "A scoop of vanilla gelato drowned in a shot of hot espresso.",
+      "priceRegular": "5.95",
+      "priceLarge": "6.95",
+      "bestSeller": false,
+      "newItem": true,
+      "available": true,
+      "calories": 220,
+      "image": "https://images.unsplash.com/photo-1579992357154-faf4bde95b3d?w=600&h=600&fit=crop",
+      "sweetnessOptions": [
+        "None"
+      ],
+      "iceOptions": [
+        "Hot"
+      ]
+    },
+    {
+      "id": "mt1",
+      "name": "Classic Milk Tea",
+      "category": "milk-tea",
+      "description": "Black tea with creamy milk and chewy tapioca pearls.",
+      "priceRegular": "4.50",
+      "priceLarge": "5.50",
+      "bestSeller": true,
+      "newItem": false,
+      "available": true,
+      "calories": 320,
+      "image": "https://images.unsplash.com/photo-1558855410-3112e253d704?w=600&h=600&fit=crop",
+      "sweetnessOptions": [
+        "0%",
+        "25%",
+        "50%",
+        "75%",
+        "100%"
+      ],
+      "iceOptions": [
+        "No Ice",
+        "Less Ice",
+        "Regular Ice",
+        "Extra Ice"
+      ],
+      "addons": [
+        {
+          "name": "Pearls",
+          "price": 0.75
+        },
+        {
+          "name": "Pudding",
+          "price": 0.75
+        },
+        {
+          "name": "Grass Jelly",
+          "price": 0.75
+        }
+      ]
+    },
+    {
+      "id": "mt2",
+      "name": "Brown Sugar Milk Tea",
+      "category": "milk-tea",
+      "description": "Caramelized brown sugar syrup with fresh milk and warm pearls.",
+      "priceRegular": "5.25",
+      "priceLarge": "6.25",
+      "bestSeller": true,
+      "newItem": false,
+      "available": true,
+      "calories": 380,
+      "image": "https://images.unsplash.com/photo-1558160074-4d7d8bdf4256?w=600&h=600&fit=crop",
+      "sweetnessOptions": [
+        "0%",
+        "25%",
+        "50%",
+        "75%",
+        "100%"
+      ],
+      "iceOptions": [
+        "No Ice",
+        "Less Ice",
+        "Regular Ice"
+      ],
+      "addons": [
+        {
+          "name": "Pearls",
+          "price": 0.75
+        },
+        {
+          "name": "Cream Foam",
+          "price": 1.0
+        }
+      ]
+    },
+    {
+      "id": "mt3",
+      "name": "Taro Milk Tea",
+      "category": "milk-tea",
+      "description": "Creamy taro blended with milk tea for a nutty, sweet flavor.",
+      "priceRegular": "5.00",
+      "priceLarge": "6.00",
+      "bestSeller": false,
+      "newItem": false,
+      "available": true,
+      "calories": 340,
+      "image": "https://images.unsplash.com/photo-1623594073767-a18d0e3e3a3a?w=600&h=600&fit=crop",
+      "sweetnessOptions": [
+        "0%",
+        "25%",
+        "50%",
+        "75%",
+        "100%"
+      ],
+      "iceOptions": [
+        "No Ice",
+        "Less Ice",
+        "Regular Ice",
+        "Extra Ice"
+      ]
+    },
+    {
+      "id": "mt4",
+      "name": "Matcha Milk Tea",
+      "category": "milk-tea",
+      "description": "Premium matcha powder with creamy milk and a hint of sweetness.",
+      "priceRegular": "5.25",
+      "priceLarge": "6.25",
+      "bestSeller": false,
+      "newItem": false,
+      "available": true,
+      "calories": 280,
+      "image": "https://images.unsplash.com/photo-1515823064-d6e0c04616a7?w=600&h=600&fit=crop",
+      "sweetnessOptions": [
+        "0%",
+        "25%",
+        "50%",
+        "75%",
+        "100%"
+      ],
+      "iceOptions": [
+        "No Ice",
+        "Less Ice",
+        "Regular Ice"
+      ],
+      "addons": [
+        {
+          "name": "Red Bean",
+          "price": 0.75
+        },
+        {
+          "name": "Mochi",
+          "price": 1.0
+        }
+      ]
+    },
+    {
+      "id": "mt5",
+      "name": "Thai Milk Tea",
+      "category": "milk-tea",
+      "description": "Strong Thai tea with condensed milk and evaporated milk.",
+      "priceRegular": "4.75",
+      "priceLarge": "5.75",
+      "bestSeller": false,
+      "newItem": false,
+      "available": true,
+      "calories": 300,
+      "image": "https://images.unsplash.com/photo-1595981267035-7b04ca84a82d?w=600&h=600&fit=crop",
+      "sweetnessOptions": [
+        "0%",
+        "25%",
+        "50%",
+        "75%",
+        "100%"
+      ],
+      "iceOptions": [
+        "No Ice",
+        "Less Ice",
+        "Regular Ice"
+      ]
+    },
+    {
+      "id": "mt6",
+      "name": "Jasmine Milk Tea",
+      "category": "milk-tea",
+      "description": "Fragrant jasmine green tea with creamy milk.",
+      "priceRegular": "4.50",
+      "priceLarge": "5.50",
+      "bestSeller": false,
+      "newItem": false,
+      "available": true,
+      "calories": 260,
+      "image": "https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=600&h=600&fit=crop",
+      "sweetnessOptions": [
+        "0%",
+        "25%",
+        "50%",
+        "75%",
+        "100%"
+      ],
+      "iceOptions": [
+        "No Ice",
+        "Less Ice",
+        "Regular Ice",
+        "Extra Ice"
+      ]
+    },
+    {
+      "id": "mt7",
+      "name": "Honey Milk Tea",
+      "category": "milk-tea",
+      "description": "Black tea with natural honey and creamy milk.",
+      "priceRegular": "4.75",
+      "priceLarge": "5.75",
+      "bestSeller": false,
+      "newItem": false,
+      "available": true,
+      "calories": 290,
+      "image": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=600&h=600&fit=crop",
+      "sweetnessOptions": [
+        "0%",
+        "25%",
+        "50%",
+        "75%",
+        "100%"
+      ],
+      "iceOptions": [
+        "No Ice",
+        "Less Ice",
+        "Regular Ice"
+      ]
+    },
+    {
+      "id": "mt8",
+      "name": "Oreo Milk Tea",
+      "category": "milk-tea",
+      "description": "Creamy milk tea blended with Oreo cookie crumbles.",
+      "priceRegular": "5.50",
+      "priceLarge": "6.50",
+      "bestSeller": false,
+      "newItem": true,
+      "available": true,
+      "calories": 420,
+      "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=600&h=600&fit=crop",
+      "sweetnessOptions": [
+        "25%",
+        "50%",
+        "75%",
+        "100%"
+      ],
+      "iceOptions": [
+        "Less Ice",
+        "Regular Ice"
+      ]
+    },
+    {
+      "id": "mt9",
+      "name": "Rose Milk Tea",
+      "category": "milk-tea",
+      "description": "Delicate rose syrup with black tea and creamy milk.",
+      "priceRegular": "5.00",
+      "priceLarge": "6.00",
+      "bestSeller": false,
+      "newItem": false,
+      "available": true,
+      "calories": 270,
+      "image": "https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=600&h=600&fit=crop",
+      "sweetnessOptions": [
+        "0%",
+        "25%",
+        "50%",
+        "75%",
+        "100%"
+      ],
+      "iceOptions": [
+        "No Ice",
+        "Less Ice",
+        "Regular Ice"
+      ]
+    },
+    {
+      "id": "mt10",
+      "name": "Hokkaido Milk Tea",
+      "category": "milk-tea",
+      "description": "Rich caramel-flavored milk tea inspired by Hokkaido dairy.",
+      "priceRegular": "5.25",
+      "priceLarge": "6.25",
+      "bestSeller": false,
+      "newItem": false,
+      "available": true,
+      "calories": 350,
+      "image": "https://images.unsplash.com/photo-1558855410-3112e253d704?w=600&h=600&fit=crop",
+      "sweetnessOptions": [
+        "0%",
+        "25%",
+        "50%",
+        "75%",
+        "100%"
+      ],
+      "iceOptions": [
+        "No Ice",
+        "Less Ice",
+        "Regular Ice"
+      ]
+    },
+    {
+      "id": "ft1",
+      "name": "Passion Fruit Green Tea",
+      "category": "fruit-tea",
+      "description": "Refreshing green tea with real passion fruit pulp.",
+      "priceRegular": "4.75",
+      "priceLarge": "5.75",
+      "bestSeller": false,
+      "newItem": false,
+      "available": true,
+      "calories": 180,
+      "image": "https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=600&h=600&fit=crop",
+      "sweetnessOptions": [
+        "0%",
+        "25%",
+        "50%",
+        "75%",
+        "100%"
+      ],
+      "iceOptions": [
+        "No Ice",
+        "Less Ice",
+        "Regular Ice",
+        "Extra Ice"
+      ]
+    },
+    {
+      "id": "ft2",
+      "name": "Peach Oolong Tea",
+      "category": "fruit-tea",
+      "description": "Floral oolong tea with sweet peach flavor.",
+      "priceRegular": "4.50",
+      "priceLarge": "5.50",
+      "bestSeller": false,
+      "newItem": false,
+      "available": true,
+      "calories": 160,
+      "image": "https://images.unsplash.com/photo-1625772299848-391b6a87d7b3?w=600&h=600&fit=crop",
+      "sweetnessOptions": [
+        "0%",
+        "25%",
+        "50%",
+        "75%",
+        "100%"
+      ],
+      "iceOptions": [
+        "No Ice",
+        "Less Ice",
+        "Regular Ice"
+      ]
+    },
+    {
+      "id": "ft3",
+      "name": "Lychee Black Tea",
+      "category": "fruit-tea",
+      "description": "Bold black tea with fragrant lychee.",
+      "priceRegular": "4.75",
+      "priceLarge": "5.75",
+      "bestSeller": false,
+      "newItem": false,
+      "available": true,
+      "calories": 170,
+      "image": "https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=600&h=600&fit=crop",
+      "sweetnessOptions": [
+        "0%",
+        "25%",
+        "50%",
+        "75%",
+        "100%"
+      ],
+      "iceOptions": [
+        "No Ice",
+        "Less Ice",
+        "Regular Ice"
+      ]
+    },
+    {
+      "id": "ft4",
+      "name": "Mango Green Tea",
+      "category": "fruit-tea",
+      "description": "Fresh mango puree with jasmine green tea.",
+      "priceRegular": "5.00",
+      "priceLarge": "6.00",
+      "bestSeller": true,
+      "newItem": false,
+      "available": true,
+      "calories": 200,
+      "image": "https://images.unsplash.com/photo-1623594073767-a18d0e3e3a3a?w=600&h=600&fit=crop",
+      "sweetnessOptions": [
+        "0%",
+        "25%",
+        "50%",
+        "75%",
+        "100%"
+      ],
+      "iceOptions": [
+        "No Ice",
+        "Less Ice",
+        "Regular Ice",
+        "Extra Ice"
+      ]
+    },
+    {
+      "id": "f1",
+      "name": "Mocha Frappé",
+      "category": "frappes",
+      "description": "Blended coffee, chocolate, and milk topped with whipped cream.",
+      "priceRegular": "5.95",
+      "priceLarge": "6.95",
+      "bestSeller": true,
+      "newItem": false,
+      "available": true,
+      "calories": 380,
+      "image": "https://images.unsplash.com/photo-1578314675249-a6910f80cc4e?w=600&h=600&fit=crop",
+      "sweetnessOptions": [
+        "Light",
+        "Regular",
+        "Extra"
+      ],
+      "iceOptions": [
+        "Blended"
+      ],
+      "addons": [
+        {
+          "name": "Whipped Cream",
+          "price": 0.5
+        },
+        {
+          "name": "Chocolate Drizzle",
+          "price": 0.5
+        }
+      ]
+    },
+    {
+      "id": "f2",
+      "name": "Matcha Frappé",
+      "category": "frappes",
+      "description": "Premium matcha blended with milk and ice.",
+      "priceRegular": "5.95",
+      "priceLarge": "6.95",
+      "bestSeller": false,
+      "newItem": false,
+      "available": true,
+      "calories": 320,
+      "image": "https://images.unsplash.com/photo-1515823064-d6e0c04616a7?w=600&h=600&fit=crop",
+      "sweetnessOptions": [
+        "Light",
+        "Regular",
+        "Extra"
+      ],
+      "iceOptions": [
+        "Blended"
+      ]
+    },
+    {
+      "id": "f3",
+      "name": "Caramel Frappé",
+      "category": "frappes",
+      "description": "Blended coffee with caramel sauce and whipped cream.",
+      "priceRegular": "5.95",
+      "priceLarge": "6.95",
+      "bestSeller": false,
+      "newItem": false,
+      "available": true,
+      "calories": 400,
+      "image": "https://images.unsplash.com/photo-1485808191679-5f86510681a2?w=600&h=600&fit=crop",
+      "sweetnessOptions": [
+        "Light",
+        "Regular",
+        "Extra"
+      ],
+      "iceOptions": [
+        "Blended"
+      ]
+    },
+    {
+      "id": "f4",
+      "name": "Strawberry Frappé",
+      "category": "frappes",
+      "description": "Fresh strawberries blended with milk and ice.",
+      "priceRegular": "5.50",
+      "priceLarge": "6.50",
+      "bestSeller": false,
+      "newItem": true,
+      "available": true,
+      "calories": 290,
+      "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=600&h=600&fit=crop",
+      "sweetnessOptions": [
+        "Light",
+        "Regular",
+        "Extra"
+      ],
+      "iceOptions": [
+        "Blended"
+      ]
+    },
+    {
+      "id": "nc1",
+      "name": "Hot Chocolate",
+      "category": "non-coffee",
+      "description": "Rich Belgian chocolate with steamed milk and marshmallows.",
+      "priceRegular": "4.50",
+      "priceLarge": "5.50",
+      "bestSeller": false,
+      "newItem": false,
+      "available": true,
+      "calories": 280,
+      "image": "https://images.unsplash.com/photo-1542990253-0d0f5be5f0ed?w=600&h=600&fit=crop",
+      "sweetnessOptions": [
+        "Light",
+        "Regular",
+        "Extra"
+      ],
+      "iceOptions": [
+        "Hot",
+        "Iced"
+      ]
+    },
+    {
+      "id": "nc2",
+      "name": "Chai Latte",
+      "category": "non-coffee",
+      "description": "Spiced black tea with steamed milk and honey.",
+      "priceRegular": "4.75",
+      "priceLarge": "5.75",
+      "bestSeller": false,
+      "newItem": false,
+      "available": true,
+      "calories": 200,
+      "image": "https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=600&h=600&fit=crop",
+      "sweetnessOptions": [
+        "Light",
+        "Regular",
+        "Extra"
+      ],
+      "iceOptions": [
+        "Hot",
+        "Iced"
+      ]
+    },
+    {
+      "id": "nc3",
+      "name": "Lemonade",
+      "category": "non-coffee",
+      "description": "Freshly squeezed lemons with a hint of mint.",
+      "priceRegular": "3.95",
+      "priceLarge": "4.95",
+      "bestSeller": false,
+      "newItem": false,
+      "available": true,
+      "calories": 120,
+      "image": "https://images.unsplash.com/photo-1625772299848-391b6a87d7b3?w=600&h=600&fit=crop",
+      "sweetnessOptions": [
+        "Light",
+        "Regular",
+        "Extra"
+      ],
+      "iceOptions": [
+        "No Ice",
+        "Less Ice",
+        "Regular Ice",
+        "Extra Ice"
+      ]
+    },
+    {
+      "id": "p1",
+      "name": "Butter Croissant",
+      "category": "pastries",
+      "description": "Flaky, buttery layers baked to golden perfection.",
+      "priceRegular": "3.50",
+      "priceLarge": null,
+      "bestSeller": true,
+      "newItem": false,
+      "available": true,
+      "calories": 280,
+      "image": "https://images.unsplash.com/photo-1555507036-ab1f4038024a?w=600&h=600&fit=crop",
+      "sweetnessOptions": [
+        "None"
+      ],
+      "iceOptions": [
+        "N/A"
+      ]
+    },
+    {
+      "id": "p2",
+      "name": "Almond Croissant",
+      "category": "pastries",
+      "description": "Butter croissant filled with almond cream and topped with sliced almonds.",
+      "priceRegular": "4.25",
+      "priceLarge": null,
+      "bestSeller": false,
+      "newItem": false,
+      "available": true,
+      "calories": 350,
+      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&h=600&fit=crop",
+      "sweetnessOptions": [
+        "None"
+      ],
+      "iceOptions": [
+        "N/A"
+      ]
+    },
+    {
+      "id": "p3",
+      "name": "Cinnamon Roll",
+      "category": "pastries",
+      "description": "Soft dough swirled with cinnamon and cream cheese glaze.",
+      "priceRegular": "4.00",
+      "priceLarge": null,
+      "bestSeller": true,
+      "newItem": false,
+      "available": true,
+      "calories": 420,
+      "image": "https://images.unsplash.com/photo-1509365465985-25d11c17e812?w=600&h=600&fit=crop",
+      "sweetnessOptions": [
+        "None"
+      ],
+      "iceOptions": [
+        "N/A"
+      ]
+    },
+    {
+      "id": "p4",
+      "name": "Chocolate Muffin",
+      "category": "pastries",
+      "description": "Double chocolate muffin with chocolate chips.",
+      "priceRegular": "3.75",
+      "priceLarge": null,
+      "bestSeller": false,
+      "newItem": false,
+      "available": true,
+      "calories": 380,
+      "image": "https://images.unsplash.com/photo-1607958996333-41aef7caefaa?w=600&h=600&fit=crop",
+      "sweetnessOptions": [
+        "None"
+      ],
+      "iceOptions": [
+        "N/A"
+      ]
+    },
+    {
+      "id": "d1",
+      "name": "Tiramisu",
+      "category": "desserts",
+      "description": "Classic Italian dessert with espresso-soaked ladyfingers and mascarpone.",
+      "priceRegular": "6.50",
+      "priceLarge": null,
+      "bestSeller": true,
+      "newItem": false,
+      "available": true,
+      "calories": 450,
+      "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=600&h=600&fit=crop",
+      "sweetnessOptions": [
+        "None"
+      ],
+      "iceOptions": [
+        "N/A"
+      ]
+    },
+    {
+      "id": "d2",
+      "name": "Cheesecake",
+      "category": "desserts",
+      "description": "New York style cheesecake with berry compote.",
+      "priceRegular": "6.00",
+      "priceLarge": null,
+      "bestSeller": false,
+      "newItem": false,
+      "available": true,
+      "calories": 400,
+      "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?w=600&h=600&fit=crop",
+      "sweetnessOptions": [
+        "None"
+      ],
+      "iceOptions": [
+        "N/A"
+      ]
+    },
+    {
+      "id": "d3",
+      "name": "Chocolate Lava Cake",
+      "category": "desserts",
+      "description": "Warm chocolate cake with a molten center, served with vanilla ice cream.",
+      "priceRegular": "7.00",
+      "priceLarge": null,
+      "bestSeller": false,
+      "newItem": false,
+      "available": true,
+      "calories": 520,
+      "image": "https://images.unsplash.com/photo-1624353365286-3f8d62daad51?w=600&h=600&fit=crop",
+      "sweetnessOptions": [
+        "None"
+      ],
+      "iceOptions": [
+        "N/A"
+      ]
+    },
+    {
+      "id": "m1",
+      "name": "Avocado Toast",
+      "category": "meals",
+      "description": "Sourdough bread with smashed avocado, poached egg, and chili flakes.",
+      "priceRegular": "8.50",
+      "priceLarge": null,
+      "bestSeller": true,
+      "newItem": false,
+      "available": true,
+      "calories": 380,
+      "image": "https://images.unsplash.com/photo-1588137372308-15f75323ca8d?w=600&h=600&fit=crop",
+      "sweetnessOptions": [
+        "None"
+      ],
+      "iceOptions": [
+        "N/A"
+      ]
+    },
+    {
+      "id": "m2",
+      "name": "Breakfast Sandwich",
+      "category": "meals",
+      "description": "Brioche bun with scrambled eggs, cheddar, and turkey bacon.",
+      "priceRegular": "7.50",
+      "priceLarge": null,
+      "bestSeller": false,
+      "newItem": false,
+      "available": true,
+      "calories": 450,
+      "image": "https://images.unsplash.com/photo-1525351484163-7529414395d8?w=600&h=600&fit=crop",
+      "sweetnessOptions": [
+        "None"
+      ],
+      "iceOptions": [
+        "N/A"
+      ]
+    },
+    {
+      "id": "m3",
+      "name": "Chicken Panini",
+      "category": "meals",
+      "description": "Grilled chicken, mozzarella, pesto, and sun-dried tomatoes on ciabatta.",
+      "priceRegular": "9.50",
+      "priceLarge": null,
+      "bestSeller": false,
+      "newItem": false,
+      "available": true,
+      "calories": 520,
+      "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=600&h=600&fit=crop",
+      "sweetnessOptions": [
+        "None"
+      ],
+      "iceOptions": [
+        "N/A"
+      ]
+    },
+    {
+      "id": "m4",
+      "name": "Caesar Salad",
+      "category": "meals",
+      "description": "Crisp romaine, parmesan, croutons, and house-made Caesar dressing.",
+      "priceRegular": "8.00",
+      "priceLarge": null,
+      "bestSeller": false,
+      "newItem": false,
+      "available": true,
+      "calories": 320,
+      "image": "https://images.unsplash.com/photo-1550304943-4f24f54ddde9?w=600&h=600&fit=crop",
+      "sweetnessOptions": [
+        "None"
+      ],
+      "iceOptions": [
+        "N/A"
+      ]
+    }
+  ],
+  "promotions": [
+    {
+      "title": "Summer Berry Frappe",
+      "description": "Cool down with our new Summer Berry Frappe. A refreshing blend of mixed berries, yogurt, and ice. Available for a limited time only!",
+      "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=800&h=500&fit=crop",
+      "startDate": "2026-06-01",
+      "endDate": "2026-08-31",
+      "code": "BERRY20",
+      "status": "active"
+    },
+    {
+      "title": "Buy 1 Take 1 Tuesdays",
+      "description": "Every Tuesday, buy any large milk tea and get a second one free. Share the joy with a friend!",
+      "image": "https://images.unsplash.com/photo-1558855410-3112e253d704?w=800&h=500&fit=crop",
+      "startDate": "2026-01-01",
+      "endDate": "2026-12-31",
+      "code": "BOGO2026",
+      "status": "active"
+    },
+    {
+      "title": "Loyalty Rewards",
+      "description": "Earn 1 point for every $1 spent. Collect 50 points and get a free drink of your choice. Sign up at the counter or online!",
+      "image": "https://images.unsplash.com/photo-1511920170033-f8396924c348?w=800&h=500&fit=crop",
+      "startDate": "2026-01-01",
+      "endDate": "2026-12-31",
+      "code": "LOYALTY",
+      "status": "active"
+    },
+    {
+      "title": "Holiday Spice Latte",
+      "description": "Warm up with our seasonal Holiday Spice Latte. Notes of cinnamon, nutmeg, and clove in every sip.",
+      "image": "https://images.unsplash.com/photo-1572442388796-11668a67e53d?w=800&h=500&fit=crop",
+      "startDate": "2026-11-01",
+      "endDate": "2026-12-25",
+      "code": "HOLIDAY15",
+      "status": "active"
+    },
+    {
+      "title": "Student Discount",
+      "description": "Show your student ID and get 15% off all drinks every weekday from 2pm to 5pm.",
+      "image": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800&h=500&fit=crop",
+      "startDate": "2026-01-01",
+      "endDate": "2026-12-31",
+      "code": "STUDENT15",
+      "status": "active"
+    }
+  ],
+  "gallery": [
+    {
+      "src": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&h=800&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400&h=400&fit=crop",
+      "alt": "Coffee shop interior",
+      "category": "Café Interior"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800&h=800&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400&h=400&fit=crop",
+      "alt": "Latte art",
+      "category": "Drinks"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=800&h=800&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=400&h=400&fit=crop",
+      "alt": "Pour over coffee",
+      "category": "Drinks"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=800&h=800&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=400&h=400&fit=crop",
+      "alt": "Cozy cafe seating",
+      "category": "Café Interior"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?w=800&h=800&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?w=400&h=400&fit=crop",
+      "alt": "Cold brew",
+      "category": "Drinks"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1509365465985-25d11c17e812?w=800&h=800&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1509365465985-25d11c17e812?w=400&h=400&fit=crop",
+      "alt": "Pastries display",
+      "category": "Food"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=800&h=800&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=400&h=400&fit=crop",
+      "alt": "Tiramisu",
+      "category": "Food"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1521017432531-fbd92d768814?w=800&h=800&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1521017432531-fbd92d768814?w=400&h=400&fit=crop",
+      "alt": "Friends at cafe",
+      "category": "Customers"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1511920170033-f8396924c348?w=800&h=800&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1511920170033-f8396924c348?w=400&h=400&fit=crop",
+      "alt": "Coffee beans",
+      "category": "Drinks"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1558855410-3112e253d704?w=800&h=800&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1558855410-3112e253d704?w=400&h=400&fit=crop",
+      "alt": "Milk tea",
+      "category": "Drinks"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1493857671505-72967e2e2760?w=800&h=800&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1493857671505-72967e2e2760?w=400&h=400&fit=crop",
+      "alt": "Coffee event",
+      "category": "Events"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=800&h=800&fit=crop",
+      "thumbnail": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=400&h=400&fit=crop",
+      "alt": "Iced coffee",
+      "category": "Drinks"
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Sarah Mitchell",
+      "rating": 5,
+      "comment": "The Brew Haven is my absolute favorite spot in the city. The cold brew is unmatched, and the atmosphere is perfect for both work and relaxation. The staff always remembers my order!",
+      "photo": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop",
+      "role": "Regular Customer"
+    },
+    {
+      "name": "James Chen",
+      "rating": 5,
+      "comment": "As a coffee enthusiast, I have high standards. The Brew Haven exceeds them all. Their pour-over selection is exceptional, and the baristas truly understand the craft.",
+      "photo": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop",
+      "role": "Coffee Blogger"
+    },
+    {
+      "name": "Emily Rodriguez",
+      "rating": 5,
+      "comment": "The brown sugar milk tea here is absolutely divine. Perfect sweetness, chewy pearls, and the creamiest milk. My friends and I come here every weekend!",
+      "photo": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop",
+      "role": "Verified Customer"
+    },
+    {
+      "name": "Michael Park",
+      "rating": 4,
+      "comment": "Great place for meetings. The Wi-Fi is fast, the seating is comfortable, and the avocado toast is the best I have had. Highly recommend for remote workers.",
+      "photo": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop",
+      "role": "Freelance Designer"
+    },
+    {
+      "name": "Lisa Thompson",
+      "rating": 5,
+      "comment": "We had my birthday celebration here and the team went above and beyond. Reserved a beautiful corner table and even made a custom latte art with my name!",
+      "photo": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&h=100&fit=crop",
+      "role": "Verified Customer"
+    },
+    {
+      "name": "David Kim",
+      "rating": 5,
+      "comment": "The attention to detail here is incredible. From the ethically sourced beans to the beautiful interior design, everything speaks quality. A true gem.",
+      "photo": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop",
+      "role": "Food Critic"
+    }
+  ],
+  "aboutPage": {
+    "pageTitle": "Our Story",
+    "pageSubtitle": "A journey of passion, quality, and community.",
+    "storyTitle": "How It All Started",
+    "story": "The Brew Haven began in 2019 as a small dream shared by two friends who believed that coffee should be more than just caffeine — it should be an experience. What started as a tiny corner shop with three tables and a single espresso machine has grown into a beloved community gathering place.\n\nWe source our beans directly from sustainable farms in Ethiopia, Colombia, and Guatemala, ensuring that every cup supports both exceptional quality and ethical practices. Our milk tea recipes were developed over months of careful testing, blending traditional techniques with modern flavors.",
+    "mission": "Our mission is simple: to create a warm, welcoming space where exceptional beverages bring people together. We believe in quality over quantity, community over competition, and sustainability in everything we do. Every ingredient is chosen with care, every drink is crafted with passion, and every guest is treated like family.",
+    "storyImage": "https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=800&h=600&fit=crop",
+    "previewImage": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=800&h=600&fit=crop"
+  },
+  "values": [
+    {
+      "title": "Quality First",
+      "description": "We never compromise on ingredients. From single-origin beans to fresh dairy, every component is carefully selected.",
+      "icon": "award"
+    },
+    {
+      "title": "Sustainability",
+      "description": "Eco-friendly packaging, ethical sourcing, and a commitment to reducing our environmental footprint.",
+      "icon": "leaf"
+    },
+    {
+      "title": "Community",
+      "description": "We are more than a cafe. We are a gathering place for neighbors, friends, creatives, and dreamers.",
+      "icon": "users"
+    }
+  ],
+  "team": [
+    {
+      "name": "Alex Rivera",
+      "role": "Founder & Head Barista",
+      "photo": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=400&fit=crop"
+    },
+    {
+      "name": "Maya Chen",
+      "role": "Co-Founder & Pastry Chef",
+      "photo": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop"
+    },
+    {
+      "name": "Jordan Blake",
+      "role": "Lead Barista",
+      "photo": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=400&fit=crop"
+    },
+    {
+      "name": "Sofia Martinez",
+      "role": "Cafe Manager",
+      "photo": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop"
+    }
+  ],
+  "contact": {
+    "address": "123 Coffee Lane, Artisan District, New York, NY 10001",
+    "phone": "+1 (555) 234-5678",
+    "email": "hello@thebrewhaven.com",
+    "facebook": "https://facebook.com/thebrewhaven",
+    "instagram": "https://instagram.com/thebrewhaven",
+    "tiktok": "https://tiktok.com/@thebrewhaven",
+    "hours": [
+      {
+        "day": "Monday – Friday",
+        "time": "7:00 AM – 9:00 PM"
+      },
+      {
+        "day": "Saturday",
+        "time": "8:00 AM – 10:00 PM"
+      },
+      {
+        "day": "Sunday",
+        "time": "8:00 AM – 8:00 PM"
+      }
+    ]
+  },
+  "footer": {
+    "description": "Crafting exceptional coffee experiences since 2019. Every cup tells a story of passion, quality, and community.",
+    "copyright": "© 2026 The Brew Haven. All rights reserved."
+  },
+  "announcements": [
+    {
+      "text": "Free delivery on orders over $25! Use code FREEDEL25",
+      "active": true
+    },
+    {
+      "text": "New Summer Menu is here! Try our Berry Frappe today.",
+      "active": true
+    }
+  ]
+}

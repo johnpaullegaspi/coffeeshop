@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu | The Brew Haven</title>
+  <meta name="description" content="The Brew Haven - Premium Coffee & Milk Tea">
+  <link rel="stylesheet" href="assets/css/style.css">
+  
+</head>
+<body>
+  <div id="header-container"></div>
+
+  <main>
+    
+  <section class="section" style="padding-top:10rem;">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Our Selection</span>
+        <h1 class="section-title">Menu</h1>
+        <p class="section-subtitle">Explore our carefully curated selection of coffees, teas, and treats.</p>
+      </div>
+
+      <div class="menu-search">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input type="text" id="menu-search-input" placeholder="Search menu items..." aria-label="Search menu">
+      </div>
+
+      <div class="menu-filters" id="menu-filters"></div>
+      <div class="menu-grid" id="menu-grid"></div>
+    </div>
+  </section>
+
+  </main>
+
+  <div id="footer-container"></div>
+
+  
+  <!-- Order Modal -->
+  <div class="modal-overlay" id="order-modal">
+    <div class="modal">
+      <div class="modal-header">
+        <h3 class="modal-title">Customize Your Order</h3>
+        <button class="modal-close" onclick="closeOrderModal()" aria-label="Close"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+      </div>
+      <div class="modal-body" id="order-modal-body"></div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" onclick="closeOrderModal()">Cancel</button>
+        <button class="btn btn-primary" onclick="confirmAddToCart()">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+  
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" onclick="closeLightbox()" aria-label="Close"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+    <button class="lightbox-nav lightbox-prev" onclick="lightboxPrev()" aria-label="Previous"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg></button>
+    <img src="" alt="" id="lightbox-img">
+    <button class="lightbox-nav lightbox-next" onclick="lightboxNext()" aria-label="Next"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></button>
+  </div>
+
+
+  <script src="assets/js/components.js"></script>
+  <script src="assets/js/main.js"></script>
+  
+</body>
+</html>

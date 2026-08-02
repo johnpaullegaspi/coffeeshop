@@ -1,0 +1,292 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets/images"
+public_folder: "/assets/images"
+
+collections:
+  - name: "site"
+    label: "Site Content"
+    files:
+      - file: "content/site.json"
+        label: "All Site Content"
+        name: "site"
+        fields:
+          - label: "Business Info"
+            name: "business"
+            widget: "object"
+            fields:
+              - {label: "Name", name: "name", widget: "string"}
+              - {label: "Tagline", name: "tagline", widget: "string"}
+              - {label: "Founded", name: "founded", widget: "string"}
+              - {label: "Email", name: "email", widget: "string"}
+              - {label: "Phone", name: "phone", widget: "string"}
+              - {label: "Address", name: "address", widget: "text"}
+              - {label: "Maps URL", name: "mapsUrl", widget: "string"}
+              - {label: "Map Embed URL", name: "mapEmbed", widget: "text"}
+
+          - label: "SEO"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {label: "Default Title", name: "defaultTitle", widget: "string"}
+              - {label: "Default Description", name: "defaultDescription", widget: "text"}
+              - {label: "Default Keywords", name: "defaultKeywords", widget: "string"}
+              - label: "Pages"
+                name: "pages"
+                widget: "object"
+                fields:
+                  - label: "Home"
+                    name: "home"
+                    widget: "object"
+                    fields:
+                      - {label: "Title", name: "title", widget: "string"}
+                      - {label: "Description", name: "description", widget: "text"}
+                      - {label: "Keywords", name: "keywords", widget: "string"}
+                      - {label: "Canonical URL", name: "canonical", widget: "string"}
+                      - {label: "OG Image", name: "ogImage", widget: "image"}
+                  - label: "About"
+                    name: "about"
+                    widget: "object"
+                    fields:
+                      - {label: "Title", name: "title", widget: "string"}
+                      - {label: "Description", name: "description", widget: "text"}
+                      - {label: "Keywords", name: "keywords", widget: "string"}
+                      - {label: "Canonical URL", name: "canonical", widget: "string"}
+                      - {label: "OG Image", name: "ogImage", widget: "image"}
+                  - label: "Menu"
+                    name: "menu"
+                    widget: "object"
+                    fields:
+                      - {label: "Title", name: "title", widget: "string"}
+                      - {label: "Description", name: "description", widget: "text"}
+                      - {label: "Keywords", name: "keywords", widget: "string"}
+                      - {label: "Canonical URL", name: "canonical", widget: "string"}
+                      - {label: "OG Image", name: "ogImage", widget: "image"}
+                  - label: "Order"
+                    name: "order"
+                    widget: "object"
+                    fields:
+                      - {label: "Title", name: "title", widget: "string"}
+                      - {label: "Description", name: "description", widget: "text"}
+                      - {label: "Keywords", name: "keywords", widget: "string"}
+                      - {label: "Canonical URL", name: "canonical", widget: "string"}
+                      - {label: "OG Image", name: "ogImage", widget: "image"}
+                  - label: "Reservation"
+                    name: "reservation"
+                    widget: "object"
+                    fields:
+                      - {label: "Title", name: "title", widget: "string"}
+                      - {label: "Description", name: "description", widget: "text"}
+                      - {label: "Keywords", name: "keywords", widget: "string"}
+                      - {label: "Canonical URL", name: "canonical", widget: "string"}
+                      - {label: "OG Image", name: "ogImage", widget: "image"}
+                  - label: "Promotions"
+                    name: "promotions"
+                    widget: "object"
+                    fields:
+                      - {label: "Title", name: "title", widget: "string"}
+                      - {label: "Description", name: "description", widget: "text"}
+                      - {label: "Keywords", name: "keywords", widget: "string"}
+                      - {label: "Canonical URL", name: "canonical", widget: "string"}
+                      - {label: "OG Image", name: "ogImage", widget: "image"}
+                  - label: "Gallery"
+                    name: "gallery"
+                    widget: "object"
+                    fields:
+                      - {label: "Title", name: "title", widget: "string"}
+                      - {label: "Description", name: "description", widget: "text"}
+                      - {label: "Keywords", name: "keywords", widget: "string"}
+                      - {label: "Canonical URL", name: "canonical", widget: "string"}
+                      - {label: "OG Image", name: "ogImage", widget: "image"}
+                  - label: "Reviews"
+                    name: "reviews"
+                    widget: "object"
+                    fields:
+                      - {label: "Title", name: "title", widget: "string"}
+                      - {label: "Description", name: "description", widget: "text"}
+                      - {label: "Keywords", name: "keywords", widget: "string"}
+                      - {label: "Canonical URL", name: "canonical", widget: "string"}
+                      - {label: "OG Image", name: "ogImage", widget: "image"}
+                  - label: "Contact"
+                    name: "contact"
+                    widget: "object"
+                    fields:
+                      - {label: "Title", name: "title", widget: "string"}
+                      - {label: "Description", name: "description", widget: "text"}
+                      - {label: "Keywords", name: "keywords", widget: "string"}
+                      - {label: "Canonical URL", name: "canonical", widget: "string"}
+                      - {label: "OG Image", name: "ogImage", widget: "image"}
+
+          - label: "Navigation"
+            name: "navigation"
+            widget: "object"
+            fields:
+              - label: "Nav Items"
+                name: "items"
+                widget: "list"
+                fields:
+                  - {label: "Label", name: "label", widget: "string"}
+                  - {label: "URL", name: "url", widget: "string"}
+
+          - label: "Homepage"
+            name: "homepage"
+            widget: "object"
+            fields:
+              - label: "Hero"
+                name: "hero"
+                widget: "object"
+                fields:
+                  - {label: "Label", name: "label", widget: "string"}
+                  - {label: "Title", name: "title", widget: "string"}
+                  - {label: "Description", name: "description", widget: "text"}
+                  - {label: "Hero Image", name: "image", widget: "image"}
+                  - {label: "CTA Primary", name: "ctaPrimary", widget: "string"}
+                  - {label: "CTA Secondary", name: "ctaSecondary", widget: "string"}
+
+          - label: "Featured Products"
+            name: "featuredProducts"
+            widget: "list"
+            fields:
+              - {label: "Name", name: "name", widget: "string"}
+              - {label: "Description", name: "description", widget: "text"}
+              - {label: "Price", name: "price", widget: "string"}
+              - {label: "Image", name: "image", widget: "image"}
+              - label: "Badge"
+                name: "badge"
+                widget: "object"
+                required: false
+                fields:
+                  - {label: "Type", name: "type", widget: "select", options: ["bestseller", "new", "promo"]}
+                  - {label: "Text", name: "text", widget: "string"}
+
+          - label: "Menu Categories"
+            name: "categories"
+            widget: "list"
+            fields:
+              - {label: "ID", name: "id", widget: "string"}
+              - {label: "Name", name: "name", widget: "string"}
+
+          - label: "Menu Items"
+            name: "menu"
+            widget: "list"
+            fields:
+              - {label: "ID", name: "id", widget: "string"}
+              - {label: "Name", name: "name", widget: "string"}
+              - {label: "Category", name: "category", widget: "select", options: ["coffee", "milk-tea", "fruit-tea", "frappes", "non-coffee", "pastries", "desserts", "meals"]}
+              - {label: "Description", name: "description", widget: "text"}
+              - {label: "Regular Price", name: "priceRegular", widget: "string"}
+              - {label: "Large Price", name: "priceLarge", widget: "string", required: false}
+              - {label: "Best Seller", name: "bestSeller", widget: "boolean", default: false}
+              - {label: "New Item", name: "newItem", widget: "boolean", default: false}
+              - {label: "Available", name: "available", widget: "boolean", default: true}
+              - {label: "Calories", name: "calories", widget: "number", required: false}
+              - {label: "Image", name: "image", widget: "image"}
+              - label: "Sweetness Options"
+                name: "sweetnessOptions"
+                widget: "list"
+                required: false
+                field: {label: "Option", name: "option", widget: "string"}
+              - label: "Ice Options"
+                name: "iceOptions"
+                widget: "list"
+                required: false
+                field: {label: "Option", name: "option", widget: "string"}
+              - label: "Add-ons"
+                name: "addons"
+                widget: "list"
+                required: false
+                fields:
+                  - {label: "Name", name: "name", widget: "string"}
+                  - {label: "Price", name: "price", widget: "number", value_type: "float"}
+
+          - label: "Promotions"
+            name: "promotions"
+            widget: "list"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Description", name: "description", widget: "text"}
+              - {label: "Image", name: "image", widget: "image"}
+              - {label: "Start Date", name: "startDate", widget: "datetime", format: "YYYY-MM-DD"}
+              - {label: "End Date", name: "endDate", widget: "datetime", format: "YYYY-MM-DD"}
+              - {label: "Promo Code", name: "code", widget: "string", required: false}
+              - {label: "Status", name: "status", widget: "select", options: ["active", "expired", "draft"]}
+
+          - label: "Gallery"
+            name: "gallery"
+            widget: "list"
+            fields:
+              - {label: "Image", name: "src", widget: "image"}
+              - {label: "Thumbnail", name: "thumbnail", widget: "image", required: false}
+              - {label: "Alt Text", name: "alt", widget: "string"}
+              - {label: "Category", name: "category", widget: "select", options: ["Drinks", "Café Interior", "Customers", "Food", "Events"]}
+
+          - label: "Testimonials"
+            name: "testimonials"
+            widget: "list"
+            fields:
+              - {label: "Name", name: "name", widget: "string"}
+              - {label: "Rating", name: "rating", widget: "number", min: 1, max: 5}
+              - {label: "Comment", name: "comment", widget: "text"}
+              - {label: "Photo", name: "photo", widget: "image"}
+              - {label: "Role", name: "role", widget: "string"}
+
+          - label: "About Page"
+            name: "aboutPage"
+            widget: "object"
+            fields:
+              - {label: "Page Title", name: "pageTitle", widget: "string"}
+              - {label: "Page Subtitle", name: "pageSubtitle", widget: "text"}
+              - {label: "Story Title", name: "storyTitle", widget: "string"}
+              - {label: "Story", name: "story", widget: "text"}
+              - {label: "Mission", name: "mission", widget: "text"}
+              - {label: "Story Image", name: "storyImage", widget: "image"}
+              - {label: "Preview Image", name: "previewImage", widget: "image"}
+
+          - label: "Values"
+            name: "values"
+            widget: "list"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Description", name: "description", widget: "text"}
+              - {label: "Icon", name: "icon", widget: "select", options: ["award", "leaf", "users", "heart"]}
+
+          - label: "Team"
+            name: "team"
+            widget: "list"
+            fields:
+              - {label: "Name", name: "name", widget: "string"}
+              - {label: "Role", name: "role", widget: "string"}
+              - {label: "Photo", name: "photo", widget: "image"}
+
+          - label: "Contact"
+            name: "contact"
+            widget: "object"
+            fields:
+              - {label: "Address", name: "address", widget: "text"}
+              - {label: "Phone", name: "phone", widget: "string"}
+              - {label: "Email", name: "email", widget: "string"}
+              - {label: "Facebook", name: "facebook", widget: "string"}
+              - {label: "Instagram", name: "instagram", widget: "string"}
+              - {label: "TikTok", name: "tiktok", widget: "string"}
+              - label: "Hours"
+                name: "hours"
+                widget: "list"
+                fields:
+                  - {label: "Day", name: "day", widget: "string"}
+                  - {label: "Time", name: "time", widget: "string"}
+
+          - label: "Footer"
+            name: "footer"
+            widget: "object"
+            fields:
+              - {label: "Description", name: "description", widget: "text"}
+              - {label: "Copyright", name: "copyright", widget: "string"}
+
+          - label: "Announcements"
+            name: "announcements"
+            widget: "list"
+            fields:
+              - {label: "Text", name: "text", widget: "string"}
+              - {label: "Active", name: "active", widget: "boolean", default: true}
