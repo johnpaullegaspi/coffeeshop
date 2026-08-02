@@ -952,12 +952,14 @@ h4 { font-size: clamp(1.25rem, 2vw, 1.75rem); }
   .footer-grid { grid-template-columns: 1fr 1fr; }
   .about-grid { text-align: center; justify-items: center; }
   .page-header, .about-hero { padding-top: 7rem; }
-}
-@media (max-width: 768px) {
-  .section { padding: 4rem 0; }
+  /* Switch to the hamburger + drawer nav for tablet as well as mobile —
+     the full desktop nav-links row no longer fits without wrapping/overflowing. */
   .nav-desktop { display: none; }
   .mobile-menu-btn { display: flex; }
   .mobile-nav { display: flex; }
+}
+@media (max-width: 768px) {
+  .section { padding: 4rem 0; }
   .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; }
   .values-grid { grid-template-columns: 1fr; }
   .form-row { grid-template-columns: 1fr; }
